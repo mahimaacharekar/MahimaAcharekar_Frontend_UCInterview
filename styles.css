@@ -482,3 +482,122 @@ height: 45px;
 footer {
   margin-top: 100px;  
 }
+
+/* Phones */
+@media (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0;
+  }
+
+  .unlock {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .text {
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .unlock img {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .lorem {
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .freecoursescards,
+  .onlinecoursecards,
+  .feedbackeg {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .webdevelopment,
+  .marketingstrategies,
+  .datastructures,
+  .genai,
+  .datascience,
+  .machinelearning {
+    width: 90%;
+    height: auto;
+  }
+
+  #headingsdegrees {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .largerectangle {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .rectangle img {
+    width: 150px;
+    height: 150px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .footerlists {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+/* Tablets*/
+@media (max-width: 900px) {
+  .freecoursescards,
+  .onlinecoursecards,
+  .feedbackeg {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    gap: 50px;
+  }
+
+  .webdevelopment,
+  .marketingstrategies,
+  .datastructures,
+  .genai,
+  .datascience,
+  .machinelearning {
+    width: 80%;
+  }
+}
