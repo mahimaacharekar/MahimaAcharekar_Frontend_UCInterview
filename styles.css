@@ -31,8 +31,8 @@ body {
     font-weight: 500;
 font-style: Medium;
 font-size: 2.1rem;
-margin-left: 3.5rem;
-    margin-right: 9rem;
+padding: 0 20px;
+justify-content: space-between;
 }
 
 nav {
@@ -56,6 +56,9 @@ nav ul {
 }
 
 nav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
     margin:0px;
     border-radius: 15px;
     width: 100%;
@@ -73,10 +76,9 @@ nav button {
     display: flex;
     width: 100%;
     max-width: 84.5rem;
-height: 29.3rem;
+min-height: 29.3rem;
 margin-left: 3.5rem;
 margin-right: 3.5rem;
-
 
 }
 
@@ -166,6 +168,7 @@ margin: 0;
     display: flex;
     gap: 3.25rem;
     justify-content: space-around;
+     flex-wrap: wrap;  
   
 }
 #titlefreecourses, #titledegrees{
@@ -209,14 +212,14 @@ font-style: Regular;
     border-radius: 15px;
     width: 100%;
  max-width: 23.5rem; 
-  height: 27.9rem; 
+   height: auto; 
 }
 
 
 .freecourses img{
 width:100%;
 max-width: 21rem; 
-  height: 14.3rem; 
+  height: auto;
   margin-left: 1.25rem; 
 margin-right: 1.25rem;
   margin-top: 1.25rem;
@@ -238,7 +241,7 @@ justify-content: space-evenly;
 .onlinedegrees img{
 width:100%;
  max-width: 21.5rem; 
-  height: 14.1rem; 
+  height: auto;
   margin-left: 1.25rem;
   margin-right: 1.25rem;
   margin-top: 1.25rem;
@@ -249,7 +252,7 @@ border-radius: 10px;
     background-color:#DCECFC;
     width: 100%;
     max-width: 23.5rem; 
-  height: 27.9rem;
+  height: auto; 
     border-radius: 15px;
 }
 
@@ -265,6 +268,9 @@ border-radius: 10px;
     max-width: 75.9rem;
   height: 39.8125rem;
       margin: auto;
+      padding: 0 20px;
+      box-sizing: border-box;  
+      flex-wrap: wrap;   
     
 }
 
@@ -315,6 +321,7 @@ font-weight: 400;
 font-style: Regular;
 font-size: 1.25rem; 
   line-height: 1.875rem; 
+}
 
 .rectangle h3{
     font-family: Oswald;
@@ -499,12 +506,17 @@ footer {
     flex-direction: column;
     gap: 0.625rem; 
     text-align: center;
+        
+        align-items: center;            
+        gap: 10px;     
   }
 
   nav ul {
     flex-direction: column;
     gap: 0.625rem; 
     margin-right: 0;
+            
+        padding: 0;
   }
 
   .unlock {
