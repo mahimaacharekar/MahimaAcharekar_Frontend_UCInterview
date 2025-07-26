@@ -224,6 +224,7 @@ max-width: 21rem;
 margin-right: 1.25rem;
   margin-top: 1.25rem;
 border-radius: 10px;
+  object-fit: cover;
 }
 
 #headingsdegrees {
@@ -246,6 +247,7 @@ width:100%;
   margin-right: 1.25rem;
   margin-top: 1.25rem;
 border-radius: 10px;
+  object-fit: cover;
 }
 
 .genai, .machinelearning, .datascience{
@@ -554,6 +556,14 @@ footer {
     gap: 1.875rem; 
   }
 
+    #titlefreecourses,
+  #titledegrees,
+  .feedback h2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+
   .webdevelopment,
   .marketingstrategies,
   .datastructures,
@@ -606,6 +616,8 @@ footer {
     text-align: center;
   }
 }
+
+
 
 /* Tablets */
 @media (max-width: 900px) {
