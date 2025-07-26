@@ -1,646 +1,220 @@
-html{
-    background-color: #FFFFFF;
-    width: 100%;
-    height: 100%;
-}
-
+/* Reset & Base Styles */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-image: url('icons/Ellipse\ 76\ \(1\).png');
-  background-size: cover;         
-  background-repeat: no-repeat;   
-  background-position: center;    
-  height: 100vh;  
-  overflow-x: hidden;                
-                     
+html, body {
+  font-family: Roboto, sans-serif;
+  background-color: #fff;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
+body {
+  background-image: url('icons/Ellipse 76 (1).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
 
 .navigation {
-    display: flex;
-    align-items: center;
-    gap: 1.8rem; 
-    flex-wrap: nowrap;
-    
-}
-
-.navigation>h1{
-    font-family: Oswald;
-    font-weight: 500;
-font-style: Medium;
-font-size: 2.1rem;
-padding: 0 20px;
-justify-content: space-between;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-    flex-wrap: wrap;
-}
-
-nav ul {
-    display: flex;
-    gap: 8rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-right: 9rem;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 1rem;
-
-}
-
-nav button {
   display: flex;
-  align-items: center;
-  justify-content: center;
-    margin:0px;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 7.4rem;
-    height: 3rem;
-    background-color: #093FC8;
-    color: white;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 1rem;
-   
-}
-
-.unlock{
-    display: flex;
-    width: 100%;
-    max-width: 84.5rem;
-min-height: 29.3rem;
-margin-left: 3.5rem;
-margin-right: 3.5rem;
-
-}
-
-input{
-    border-radius: 15px;
-    color: white;
-}
-
-
-.text{
-width: 100%;
-max-width: 36.3rem;
-height: 12.8rem;
-margin-top:7.5rem;
-
-}
-
-.text h2{
-    font-family: Oswald;
-font-weight: 500;
-font-size: 2.1rem;
-line-height: 3.1rem;
-}
-
-.text h3{
-    font-family: Roboto;
-font-weight: 400;
-font-size: 1rem;
-line-height: 1.5rem;
-}
-
-.lorem{
-    display: flex; 
-    width: 100%;
-    height: 7.6rem;
-    justify-content: space-evenly;
-    background-color: #DCECFC;
-     margin-top: 21.8rem;
-  gap: 15.6rem;
-
-}
-
-.lorem *{
-    display: flex;
-    align-items: center;
-}
-
-.lorem img{
-    width: 100%;
-    max-width: 4.5rem; 
-  height: 4.5rem; 
-    
-}
-
-.insidelorem{
-    display: flex;
-    flex-direction: column;
-    
-
-}
-
-.insidelorem h3{
-    display: flex;
-    font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 1rem;
-margin: 0;
-  padding: 0;
-  
-  
-  
-}
-
-.insidelorem h2{
-    font-family: Oswald;
-font-weight: 400;
-font-style: Regular;
-font-size: 1.25rem; 
-margin: 0;
-  padding: 0;
-  
-}
-
-
-.freecoursescards, .onlinecoursecards{
-    display: flex;
-    gap: 3.25rem;
-    justify-content: space-around;
-     flex-wrap: wrap;  
-  
-}
-#titlefreecourses, #titledegrees{
-    font-family: Oswald;
-    font-weight: 500;
-    font-style: Medium;
-   font-size: 4.375rem;
-    line-height: 3.125rem;
-    text-align: center;
-    color: #314D8F;
-}
-.freecourses h2, .onlinedegrees h2{
-    font-family: Oswald;
-font-weight: 500;
-font-style: Medium;
-font-size: 1.5rem;
-margin-left: 1.4rem;
-
-}
-
-.freecourses h3, .onlinecoursecards h3{
-font-family: Roboto;
-font-weight: 600;
-font-style: Medium;
-font-size: 0.9rem;
-margin-left: 1.4rem;
-
-}
-
-.freecourses p, .onlinedegrees p{
-    font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-  font-size: 0.875rem; 
-  line-height: 1.25rem; 
-  margin-left: 1.4rem; 
-}
-
-.webdevelopment, .marketingstrategies, .datastructures{
-    background-color: #DCECFC;
-    border-radius: 15px;
-    width: 100%;
- max-width: 23.5rem; 
-   height: auto; 
-}
-
-
-.freecourses img{
-width:100%;
-max-width: 21rem; 
-  height: auto;
-  margin-left: 1.25rem; 
-margin-right: 1.25rem;
-  margin-top: 1.25rem;
-border-radius: 10px;
-  object-fit: cover;
-}
-
-#headingsdegrees {
-    display: flex;
-    font-family: Roboto;
-font-weight: 500;
-font-style: Medium;
-font-size: 1.5rem;
-  gap: 3.75rem;
-justify-content: space-evenly;
-
-}
-
-
-.onlinedegrees img{
-width:100%;
- max-width: 21.5rem; 
-  height: auto;
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-  margin-top: 1.25rem;
-border-radius: 10px;
-  object-fit: cover;
-}
-
-.genai, .machinelearning, .datascience{
-    background-color:#DCECFC;
-    width: 100%;
-    max-width: 23.5rem; 
-  height: auto; 
-    border-radius: 15px;
-}
-
-
-.communities{
-    display: flex;
-    justify-content: center;
-     align-items: center;
-    height: 100vh;
-    border-radius: 10px;
-    background-color: #DCECFC;
-    width:100%;
-    max-width: 75.9rem;
-  height: 39.8125rem;
-      margin: auto;
-      padding: 0 20px;
-      box-sizing: border-box;  
-      flex-wrap: wrap;   
-    
-}
-
-.largerectangle{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-   max-width: 73.4rem; 
-  height: 36.125rem;
- margin-left: 1.4rem; 
-  margin-right: 1.4rem;
-border-radius: 50px;
-background-color: #EFF7FF;
-}
-
-.rectangle{
-     display: flex;
-    flex-direction: column;
-
-}
-
-.rectanglemain{
-display: flex;
-justify-content: space-evenly;
-
-}
-
-.rectangle img {
-  width: 100%;
- max-width: 12.625rem; 
-  height: 12.625rem;
-  border-radius: 50%;     
-  object-fit: cover;     
-}
-
-#titlecommunities{
-font-family: Oswald;
-font-weight: 400;
-font-style: Regular;
-font-size: 3.4375rem; 
-  line-height: 3.75rem;
-}
-
-#paracommunities{
-    font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 1.25rem; 
-  line-height: 1.875rem; 
-}
-
-.rectangle h3{
-    font-family: Oswald;
-font-weight: 500;
- font-size: 1.25rem; 
-  line-height: 1.875rem;
-text-align: center;
-}
-
-.rectangle p{
-font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 1rem; 
-  line-height: 1.25rem;
-text-align: center;
-}
-
-.feedback{
-    display: flex;
-    flex-direction: column;
-    margin:auto;
-    width: 100%;
-   max-width: 75.9rem; 
-  height: 27.75rem;
-
-}
-
-.feedback h2{
-    text-align: center;
-font-family: Oswald;
-font-weight: 500;
-font-style: Medium;
-font-size: 4.375rem; 
-  line-height: 3.125rem;
-color: #314D8F;
-}
-
-.name1, .name2 {
-display: flex;
-flex-wrap: wrap;
-justify-content: left;
-align-content: flex-start;
-width: 100%;
-max-width: 36.6rem; 
-  height: 20rem;
-border-radius: 10px;
-background-color:  #F3F9FF;
-padding: 1.875rem;
-}
-
-.stars{
-    align-self: flex-end !important;
-}
-
-.name1 h3, .name2 h3{
-font-family: Oswald;
-font-weight: 500;
-font-style: Medium;
- font-size: 1.56rem; 
-  line-height: 1.875rem;
-}
-
-.feedback p{
-font-family: Roboto;
-font-weight: 400;
-font-size: 1.125rem; 
-  line-height: 1.56rem;
-}
-
-
-.feedback img {
-  width: 100%;
-  max-width: 5.6rem; 
-  height: 5.6rem;
-  border-radius: 50%;     
-  object-fit: cover;     
-}
-
-.feedbackeg{
-    display: flex;
-    justify-content: center;
-    gap: 2.8rem;
-}
-
-
-footer {
-  padding: 2.5rem 5rem;
- 
-}
-
-.footerlists {
-  display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 3.75rem; 
-  margin-bottom: 1.875rem
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
-
-.footerlists h3 {
-color: #121B30;
-font-family: Source Sans Pro;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 1.25rem; 
-  line-height: 1.75rem;
-
+.navigation h1 {
+  font-family: Oswald;
+  font-size: 2rem;
 }
-
-.footerlists ul {
-font-family: Source Sans Pro;
-font-weight: 400;
-font-style: Regular;
-font-size: 0.875rem; 
-line-height: 1.25rem;
-vertical-align: middle;
-color: #121B30;
-list-style-type: none;
-padding-left: 0;
-margin: 0;
-
-}
-
-.footerlists li {
- margin-bottom: 0.375rem; 
-  font-size: 0.875rem; 
-  line-height: 1.25rem;
-}
-
-.apps {
+nav ul {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+}
+nav button {
+  background: #093FC8;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-.apps img {
-width: 100%;
-  max-width: 9.5rem; 
-  height: 2.8rem; 
+.unlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.text {
+  max-width: 600px;
+  text-align: center;
+}
+.text h2 {
+  font-family: Oswald;
+  font-size: 2rem;
+}
+.text h3 {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-.footer-bottom {
-    display: flex;
-    justify-content: space-between;
- font-size: 0.75rem;
+.lorem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #DCECFC;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.lorem img {
+  max-width: 70px;
+  height: auto;
 }
 
-.socialicons img {
+.freecoursescards, .onlinecoursecards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.webdevelopment, .marketingstrategies, .datastructures,
+.genai, .machinelearning, .datascience {
+  background-color: #DCECFC;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-bottom: 1rem;
+}
+
+.freecourses img, .onlinedegrees img {
   width: 100%;
-  max-width: 1.75rem; 
-  height: 1.75rem; 
-  border-radius: 50%;
+  height: auto;
   object-fit: cover;
+  border-radius: 10px;
+  margin: 1rem auto;
 }
 
-.freecourses {
-  margin-top: 6.25rem; 
-}
-
-.onlinedegrees {
-  margin-top: 6.25rem; 
+#titlefreecourses, #titledegrees, .feedback h2, #titlecommunities {
+  text-align: center;
+  color: #314D8F;
+  font-family: Oswald;
+  font-size: 2.5rem;
+  margin-top: 2rem;
 }
 
 .communities {
-  margin-top: 6.25rem; 
+  background-color: #DCECFC;
+  padding: 2rem;
+}
+.largerectangle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #EFF7FF;
+  border-radius: 40px;
+}
+.rectangle img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
-.feedback {
-  margin-top: 6.25rem; 
+.feedbackeg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.name1, .name2 {
+  background-color: #F3F9FF;
+  border-radius: 10px;
+  max-width: 580px;
+  padding: 1.5rem;
+}
 
 footer {
-  margin-top: 6.25rem; 
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+.footerlists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footerlists h3 {
+  font-size: 1.2rem;
+}
+.footerlists ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footerlists li {
+  margin-bottom: 0.5rem;
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+}
+.apps img {
+  max-width: 150px;
+  height: auto;
+}
+.socialicons img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
 }
 
-/* Phones */
-@media (max-width: 600px) {
-  html {
-    font-size: 14px;
-  }
+/* Media Queries */
+@media (max-width: 768px) {
   .navigation {
     flex-direction: column;
-    gap: 0.625rem; 
-    text-align: center;
-        
-        align-items: center;            
-        gap: 10px;     
+    gap: 1rem;
   }
 
   nav ul {
     flex-direction: column;
-    gap: 0.625rem; 
-    margin-right: 0;
-            
-        padding: 0;
-  }
-
-  .unlock {
-    flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    gap: 1rem;
   }
 
-  .text {
-    width: 90%;
-    text-align: center;
-    margin-top: 2.5rem; 
-  }
-
-  .unlock img {
-    width: 90%;
-    height: auto;
-    margin-top: 1.25rem;
-  }
-
-  .lorem {
-    flex-direction: column;
-    gap: 1.875rem; 
-    height: auto;
-    padding: 1.25rem 0;
-  }
-
+  .unlock,
+  .lorem,
   .freecoursescards,
   .onlinecoursecards,
-  .feedbackeg {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.875rem; 
-  }
-
-    #titlefreecourses,
-  #titledegrees,
-  .feedback h2 {
-    font-size: 2rem;
-    line-height: 2.4rem;
-    text-align: center;
-  }
-
-  .webdevelopment,
-  .marketingstrategies,
-  .datastructures,
-  .genai,
-  .datascience,
-  .machinelearning {
-    width: 90%;
-    height: auto;
-  }
-
-  #headingsdegrees {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.9375rem; 
-  }
-
+  .feedbackeg,
   .largerectangle {
     flex-direction: column;
     align-items: center;
-    height: auto;
-    padding: 1.875rem;
-    gap: 1.25rem; 
+  }
+
+  .text {
+    text-align: center;
   }
 
   .rectangle img {
-    width: 9.375rem; 
-    height: 9.375rem; 
+    width: 120px;
+    height: 120px;
   }
 
-  #titlefreecourses,
-  #titledegrees,
-  .feedback h2 {
-    font-size: 2rem;
-  }
-
-  footer {
-    padding: 1.25rem; 
-  }
-
-  .footerlists {
+  footer, .footer-bottom {
     flex-direction: column;
     align-items: center;
-    gap: 1.875rem; 
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.625rem; 
-    text-align: center;
-  }
-}
-
-
-
-/* Tablets */
-@media (max-width: 900px) {
-  html {
-    font-size: 15px;
-  }
-  .freecoursescards,
-  .onlinecoursecards,
-  .feedbackeg {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul {
-    gap: 3.125rem; 
-  }
-
-  .webdevelopment,
-  .marketingstrategies,
-  .datastructures,
-  .genai,
-  .datascience,
-  .machinelearning {
-    width: 80%;
   }
 }
