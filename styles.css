@@ -182,7 +182,7 @@ margin: 0;
 font-weight: 500;
 font-style: Medium;
 font-size: 1.5rem;
-margin-left: 1.4375rem;
+margin-left: 1.4rem;
 
 }
 
@@ -190,8 +190,8 @@ margin-left: 1.4375rem;
 font-family: Roboto;
 font-weight: 600;
 font-style: Medium;
-font-size: 0.9375rem;
-margin-left: 1.4375rem;
+font-size: 0.9rem;
+margin-left: 1.4rem;
 
 }
 
@@ -201,22 +201,22 @@ font-weight: 400;
 font-style: Regular;
   font-size: 0.875rem; 
   line-height: 1.25rem; 
-  margin-left: 1.4375rem; 
+  margin-left: 1.4rem; 
 }
 
 .webdevelopment, .marketingstrategies, .datastructures{
     background-color: #DCECFC;
     border-radius: 15px;
     width: 100%;
- max-width: 23.5625rem; 
-  height: 27.9375rem; 
+ max-width: 23.5rem; 
+  height: 27.9rem; 
 }
 
 
 .freecourses img{
 width:100%;
 max-width: 21rem; 
-  height: 14.375rem; 
+  height: 14.3rem; 
   margin-left: 1.25rem; 
 margin-right: 1.25rem;
   margin-top: 1.25rem;
@@ -228,7 +228,7 @@ border-radius: 10px;
     font-family: Roboto;
 font-weight: 500;
 font-style: Medium;
-font-size: 1.5625rem;
+font-size: 1.5rem;
   gap: 3.75rem;
 justify-content: space-evenly;
 
@@ -237,8 +237,8 @@ justify-content: space-evenly;
 
 .onlinedegrees img{
 width:100%;
- max-width: 21.5625rem; 
-  height: 14.1875rem; 
+ max-width: 21.5rem; 
+  height: 14.1rem; 
   margin-left: 1.25rem;
   margin-right: 1.25rem;
   margin-top: 1.25rem;
@@ -248,8 +248,8 @@ border-radius: 10px;
 .genai, .machinelearning, .datascience{
     background-color:#DCECFC;
     width: 100%;
-    max-width: 23.5625rem; 
-  height: 27.9375rem;
+    max-width: 23.5rem; 
+  height: 27.9rem;
     border-radius: 15px;
 }
 
@@ -262,7 +262,7 @@ border-radius: 10px;
     border-radius: 10px;
     background-color: #DCECFC;
     width:100%;
-    max-width: 75.9375rem;
+    max-width: 75.9rem;
   height: 39.8125rem;
       margin: auto;
     
@@ -273,10 +273,10 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
     width: 100%;
-   max-width: 73.4375rem; 
+   max-width: 73.4rem; 
   height: 36.125rem;
- margin-left: 1.4375rem; 
-  margin-right: 1.4375rem;
+ margin-left: 1.4rem; 
+  margin-right: 1.4rem;
 border-radius: 50px;
 background-color: #EFF7FF;
 }
@@ -338,7 +338,7 @@ text-align: center;
     flex-direction: column;
     margin:auto;
     width: 100%;
-   max-width: 75.9375rem; 
+   max-width: 75.9rem; 
   height: 27.75rem;
 
 }
@@ -359,8 +359,8 @@ flex-wrap: wrap;
 justify-content: left;
 align-content: flex-start;
 width: 100%;
-max-width: 36.6875rem; 
-  height: 20.0625rem;
+max-width: 36.6rem; 
+  height: 20rem;
 border-radius: 10px;
 background-color:  #F3F9FF;
 padding: 1.875rem;
@@ -374,7 +374,7 @@ padding: 1.875rem;
 font-family: Oswald;
 font-weight: 500;
 font-style: Medium;
- font-size: 1.5625rem; 
+ font-size: 1.56rem; 
   line-height: 1.875rem;
 }
 
@@ -382,14 +382,14 @@ font-style: Medium;
 font-family: Roboto;
 font-weight: 400;
 font-size: 1.125rem; 
-  line-height: 1.5625rem;
+  line-height: 1.56rem;
 }
 
 
 .feedback img {
   width: 100%;
-  max-width: 5.625rem; 
-  height: 5.625rem;
+  max-width: 5.6rem; 
+  height: 5.6rem;
   border-radius: 50%;     
   object-fit: cover;     
 }
@@ -397,7 +397,7 @@ font-size: 1.125rem;
 .feedbackeg{
     display: flex;
     justify-content: center;
-    gap: 2.8125rem;
+    gap: 2.8rem;
 }
 
 
@@ -454,7 +454,7 @@ margin: 0;
 .apps img {
 width: 100%;
   max-width: 9.5rem; 
-  height: 2.8125rem; 
+  height: 2.8rem; 
 }
 
 .footer-bottom {
