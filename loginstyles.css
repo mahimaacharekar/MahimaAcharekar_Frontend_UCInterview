@@ -1,0 +1,89 @@
+html{
+    background-color: #E6F3FC;
+}
+
+.entire{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 100vh;
+}
+
+.text{
+display: flex;
+flex-direction: column;
+}
+
+h1{
+font-family: Oswald;
+font-weight: 500;
+font-size: 65px;
+line-height: 100px;
+text-align: center;
+color: #324D90;
+}
+
+img{
+width: 887px;
+height: 589px;
+}
+
+
+.loginbox{
+    background: linear-gradient(298.02deg, #C8E4FF 7.49%, #4391F1 93.26%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 25px;
+}
+
+.login{
+    align-self: center;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.loginbox h3{
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color: #FFFFFF;
+margin-left: 30px;
+margin-bottom: 0px;
+}
+
+.loginbox h4{
+    font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #FFFFFF;
+align-self: flex-end;
+margin-right: 20px;
+}
+
+
+button{
+   background: linear-gradient(90deg, #3462E7 0%, #093FC8 100%);
+   width: 338px;
+   height: 38px;
+   margin: 20px;
+   font-family: Roboto;
+font-weight: 900;
+font-size: 18px;
+color: #FFFFFF;
+border-radius: 15px;
+border: none;
+
+
+}
+
+hr{
+    width: 322px;
+height: 0.1px;
+background-color: #FFFFFF;
+}
