@@ -1,0 +1,52 @@
+button{
+   background-color: beige;
+  color:darkslategrey;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 20px;
+  width: 150px;
+  height: auto;
+  margin: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+  font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+  font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+input{
+  font-size: 20px;
+  width: 250px;
+  border-radius: 15px;
+  margin: 10px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: beige;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.result{
+  width: 200px;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  margin: 10px 10px;
+  
+}
+
+.entire{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
