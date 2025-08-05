@@ -106,6 +106,12 @@ hr{
         font-size: 20px;
     }
 
+    .loginbox{
+        width: 290px;
+    }
+    hr{
+        width: 250px;
+    }
     .loginbox h3{
         font-size:14px;
     }
@@ -116,6 +122,7 @@ hr{
 
     button{
         font-size: 14px;
+        width: 250px;
 
     }
 }
